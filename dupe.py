@@ -19,7 +19,7 @@ intents = discord.Intents.all()
 
 bot = discord.Bot(Intents=intents)
 
-TOKEN = 'MTA4ODkyNjUwMDAwNDMwNzExNQ.GKzo6J.YzrZq6LEXMdGt1lqypXwSnVNHr5dAekFcnfo_k'
+TOKEN = 'YOUR TOKEN'
 
 client = discord.Client()
 
