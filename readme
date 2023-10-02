@@ -1,0 +1,15 @@
+steps to make "Drop's Dupe Bot Work"
+
+1. Copy & Paste Code Into YOUR WORKSPACE
+
+2.install discord & install pycord developer mode
+
+pip install discord
+
+pip install git+https://github.com/Pycord-Development/pycord
+
+3. run pip install all import commands
+
+4. setup database
+
+5. put your own token in
