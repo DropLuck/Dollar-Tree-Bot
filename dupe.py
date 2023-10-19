@@ -34,7 +34,7 @@ async def on_ready():
     print("Bot Is Connected To Discord!")
     change_status.start()
 
-DATABASE_CLUSTER = AsyncIOMotorClient("mongodb+srv://dropluck:dropdzn2@morbdupebot.eehucv5.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_CLUSTER = AsyncIOMotorClient("mongodb+srv://USERNAME:PASSWORD@morbdupebot.eehucv5.mongodb.net/?retryWrites=true&w=majority")
 db = DATABASE_CLUSTER["Fenex"]
 user_data = db["USER_DATA"]
 
