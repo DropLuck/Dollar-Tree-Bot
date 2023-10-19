@@ -35,7 +35,7 @@ async def on_ready():
     change_status.start()
 
 DATABASE_CLUSTER = AsyncIOMotorClient("mongodb+srv://USERNAME:PASSWORD@morbdupebot.eehucv5.mongodb.net/?retryWrites=true&w=majority")
-db = DATABASE_CLUSTER["Fenex"]
+db = DATABASE_CLUSTER["BOTNAME"]
 user_data = db["USER_DATA"]
 
 import aiohttp
